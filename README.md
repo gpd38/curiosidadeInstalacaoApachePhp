@@ -38,7 +38,7 @@ extension=php_pdo_mysql.dll
 ; On windows:
 extension_dir = "c:\php7\ext"
 ```
-9. Acesse a pasta c:\apache24\bin e crie um atalho do arquivo "ApacheMonitor.exe" em sua área de trabalho. 
+9. Acesse a pasta c:\apache24\bin e crie um atalho do arquivo "ApacheMonitor.exe" em sua área de trabalho.
 10. Execute o arquivo e clique em "Start" para iniciar o servidor apache.
 11. Acesse o navegador e digite "localhost".
 
@@ -46,5 +46,5 @@ Se tudo estiver configurado corretamente, deve aparecer uma página escrita "It 
 
 ### Onde publicar
 
-Dentro da pasta apache24 procure o diretório htdocs. Este diretório é onde você deve colocar todas as páginas criadas para que o servidor tenha acesso.
+Todos os arquivos html ou php devem ser salvos no diretório c:/apache24/htdocs para que o servidor tenha acesso e você possa testar em seu navegador.
 
