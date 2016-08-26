@@ -10,3 +10,7 @@ Acesse o site do [apache](http://httpd.apache.org/download.cgi) e faça o downlo
 
 Acesse o site do [php](http://php.net/downloads.php) e faça o download da ultima versão de acordo com seu SO (32 bits ou 64 bits). A versão que foi utilizada neste projeto para teste foi a [php7-64 bits - Thread Safe](http://windows.php.net/downloads/releases/php-7.0.10-Win32-VC14-x64.zip).
 
+### Instalação e configuração
+
+1. Extraia o apache do arquivo zip para o diretório c:\apache24.
+2. Extraia o php do arquivo zip para o diretório c:\php7
