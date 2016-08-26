@@ -14,9 +14,9 @@ Acesse o site do [php](http://php.net/downloads.php) e faça o download da ultim
 
 ### Instalação e configuração
 
-1. Extraia o apache para o diretório c:\apache24
-2. Abra o arquivo httpd.conf que esta localizado na pasta c:\apache24\conf
-3. Acrescente as linhas abaixo no final do arquivo
+* Extraia o apache para o diretório c:\apache24
+* Abra o arquivo httpd.conf que esta localizado na pasta c:\apache24\conf
+* Acrescente as linhas abaixo no final do arquivo
 ```
 LoadModule php7_module "c:/php7/php7apache2_4"
 AddHandler application/x-httpd-php .php
@@ -25,22 +25,22 @@ PHPIniDir "c:/php7"
     SetHandler application/x-httpd-php
 </FilesMatch>
 ```
-4. Extraia o php para o diretório c:\php7.
-5. Copie o arquivo php-ini-development e renomeio para php.ini.
-6. Abra o arquivo php.ini que está localizado na pasta c:\php7\php.ini.
-7. Para habilitar qualquer extensão do php você deve remover o "ponto e vírgula" do início da linha. Procure por "pdo_mysql.dll" que está localizado próximo a linha número 883. Remova o "ponto e vírgula" do início da linha.
+* Extraia o php para o diretório c:\php7.
+* Copie o arquivo php-ini-development e renomeio para php.ini.
+* Abra o arquivo php.ini que está localizado na pasta c:\php7\php.ini.
+* Para habilitar qualquer extensão do php você deve remover o "ponto e vírgula" do início da linha. Procure por "pdo_mysql.dll" que está localizado próximo a linha número 883. Remova o "ponto e vírgula" do início da linha.
 ```
 extension=php_pdo_mysql.dll
 ```
-8. Para habilitar o diretório das bibliotecas do php procure por "extension_dir" que está localizado próximo a linha número 724. Altere o diretório ext para "c:\php7\ext" que foi onde descompactamos o php7. Deve ficar como o código abaixo.
+* Para habilitar o diretório das bibliotecas do php procure por "extension_dir" que está localizado próximo a linha número 724. Altere o diretório ext para "c:\php7\ext" que foi onde descompactamos o php7. Deve ficar como o código abaixo.
 ```
 ; extension_dir = "./"
 ; On windows:
 extension_dir = "c:\php7\ext"
 ```
-9. Acesse a pasta c:\apache24\bin e crie um atalho do arquivo "ApacheMonitor.exe" em sua área de trabalho.
-10. Execute o arquivo e clique em "Start" para iniciar o servidor apache.
-11. Acesse o navegador e digite "localhost".
+* Acesse a pasta c:\apache24\bin e crie um atalho do arquivo "ApacheMonitor.exe" em sua área de trabalho.
+* Execute o arquivo e clique em "Start" para iniciar o servidor apache.
+* Acesse o navegador e digite "localhost".
 
 Se tudo estiver configurado corretamente, deve aparecer uma página escrita "It works!"
 
