@@ -1,4 +1,4 @@
-# Projeto 09: Instalação e configuração do apache e do php em um computador windows
+# Instalação e configuração do apache e do php em um computador windows
 
 Projeto criado para documentar a experiência de instalar o apache e o php 7 manualmente, pois não desejo utilizar os pacotes como xampp, wamp entre outros.
 
